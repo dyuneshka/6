@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul { 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header{
+    margin-top: 20px;
+}
+
+.header-up{
+    display: flex;
+    align-items: center;
+}
+
+.cabinet{
+    margin-left: auto;
+}
+
+.header-down{
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-list-item:not(:first-child){
+    margin-left: 45px;
+}
+
+.header-btr{
+margin-left: auto;
+}
+
+.special-container{
+    margin-top: 70px;
+}
+
+.main-title{
+    margin: 0;
+    margin-bottom: 60px;
+}
+.special-item{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+
+.special-item2{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    margin-left: 180px;
+}
+
+.right{
+    margin-right: 0;
+}
+
+.section-about-container{
+    margin-top: 70px;
+    display: flex;
+    align-items: start;
+}
+
+.about-content{
+    width: 888px;
+}
+
+.us{
+    margin-bottom: 20px;
+}
+
+.services-container{
+    margin-top: 70px;
+}
+
+.services-card{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.services-item{
+    width: 573px;
+    height: 95px;
+    border-radius: 15px, 15px, 0px, 0px;
+
+}
+
+.services-description{
+    font-size: 16px;
+}
+
+
+.advantages-container{
+    margin-top: 70px;
+}
+
+.item-up{
+    display: flex;
+    gap: 22px;
+}
+
+.item-down{
+    display: flex;
+    gap: 22px;
+}
+
+.advantages-item{
+    width: 276px;
+}
+
+.placement-container{
+    margin-top: 70px;
+}
+
+.price{
+    display: flex;
+}
+
+.placement-card{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.placement-item{
+    width: 374px;
+}
